@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,100 +11,26 @@
         video {
             width: 400px;
         }
-    </style>
-    <body>
-        <video controls autoplay loop src="videos/ocean.mp4">
-            You'r browser doesn't support videos.
-        </video>
-        <audio src=""></audio>
-    </body>
-    <br>
-    <style>
-        ul 
-        {list-style-type: square;}
-    </style>
-    <body>
-        <ul>
-            <li>About Me</li>
-            <li>Courser</li>
-            <ul>
-                <li>HTML</li>
-                <li>JavaScript</li>
-                <li>Git</li>
-            </ul>
-            <li>Subscribe</li>
-            <li>Contact Me</li>
-        </ul>
-        <ol>
-            <li>Preheat the oven.</li>
-            <li>Place the ingridents on the crust.</li>
-            <li>Put the pizza in the oven for 30 minutes.</li>
-        </ol>
-        <dl>
-            <dt>HTML</dt>
-            <dd>Hypertext Markup Language</dd>
-            <dt>CSS</dt>
-            <dd>Cascading Stylesheets</dd>
-        </dl>
-        <dl>
-            <dt>Title</dt>
-            <dd>The ultimate Html and CSS Course </dd>
-            <dt>Author</dt>
-            <dd>Ruchi Kumari</dd>
-            <dt>Skills</dt>
-            <dd>HTML</dd>
-            <dd>CSS</dd>
-            <dd>Responsive Design</dd>
-            <dd>Search Engine Optimization</dd>
-        </dl>
-    </body>
-    <br>
-    <style>
+
+        ul {
+            list-style-type: square;
+        }
+
         table {
             border: 1px solid grey;
+            border-collapse: collapse;
         }
+
         td,
         th {
             border: 1px solid grey;
-            border-collapse: collapse;
             padding: 5px;
-
-            tfoot {
-                text-align: left;
-            }
         }
-    </style>
-    <Body>
-        <table>
-            <thead>
-                <tr>
-                    <th colspan="2">Expenses</th>
-                </tr>
-               <tr>
-                <th>Category</th>
-                <th>Ammount</th>
-            </tr> 
-            </thead>
-            <tbody>
-            <tr>
-                <td>Marketing</td>
-                <td>$100</td>
-            </tr>
-            <tr>
-                <td>Accounting</td>
-                <td>$200</td>
-            </tr>    
-            </tbody>
-            <tfoot>
-                <tr>
-                    <th>Total</th>
-                    <th>$300</th>
-                </tr>
-            </tfoot>        
-        </table>
-    </Body>
-    <br>
-    <style>
+
+        tfoot {
+            text-align: left;
+        }
+
         img {
             width: 200px;
             height: 200px;
@@ -118,12 +45,99 @@
             color: maroon;
             font-style: normal;
         }
+
+        .product {
+            background-color: gold;
+            width: 300px;
+        }
+
+        .highlight {
+            background-color: yellow;
+        }
     </style>
-        <img src="images/coffee.jpg" alt="Acoffee on table.">
 </head>
+
 <body>
+    <video controls autoplay loop src="videos/ocean.mp4">
+        Your browser doesn't support videos.
+    </video>
+
+    <br>
+
+    <audio src=""></audio>
+
+    <ul>
+        <li>About Me</li>
+        <li>Courser
+            <ul>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+            </ul>
+        </li>
+        <li>Subscribe</li>
+        <li>Contact Me</li>
+    </ul>
+
+    <ol>
+        <li>Preheat the oven.</li>
+        <li>Place the ingredients on the crust.</li>
+        <li>Put the pizza in the oven for 30 minutes.</li>
+    </ol>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Stylesheets</dd>
+    </dl>
+
+    <dl>
+        <dt>Title</dt>
+        <dd>The ultimate HTML and CSS Course</dd>
+        <dt>Author</dt>
+        <dd>Ruchi Kumari</dd>
+        <dt>Skills</dt>
+        <dd>HTML</dd>
+        <dd>CSS</dd>
+        <dd>Responsive Design</dd>
+        <dd>Search Engine Optimization</dd>
+    </dl>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Expenses</th>
+            </tr>
+            <tr>
+                <th>Category</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Marketing</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Accounting</td>
+                <td>$200</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>$300</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+
+    <img src="images/coffee.jpg" alt="A coffee on a table.">
+
     <h1>Heading 1</h1>
-    <h2>HTMl</h2>
+    <h2>HTML</h2>
     <p>HTML tutorial</p>
     <h3>Code</h3>
     <h3>Exercise</h3>
@@ -132,35 +146,105 @@
     <h4>Exercise</h4>
     <h5>Heading</h5>
     <h6>Heading</h6>
+
     <a href="about.html">About Me</a>
     <br>
     <a href="images/images.jpeg" download>My Photo</a>
     <br>
     <a href="about.html">
-        <img src="images/images.jpeg" alt="">
+        <img src="images/images.jpeg" alt="About Image">
     </a>
     <br>
     <a href="#section-css">CSS</a>
     <br>
     <a href="https://google.com" target="_blank">Google</a>
     <br>
-    <a href="Mail to:ruchikumari5286@gmail.com">Email Me</a>
+    <a href="mailto:ruchikumari5286@gmail.com">Email Me</a>
     <br>
-    <h2>HTML</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis vel culpa soluta nostrum consectetur fugiat consequuntur dicta ullam porro, perferendis quasi illo quisquam, explicabo totam quo officia et ex aperiam modi id obcaecati ipsum. Tempora nobis voluptas voluptatibus, rem eaque perspiciatis maiores porro reprehenderit. Facilis ex corrupti sunt. Quam iste numquam tenetur inventore natus, vitae aut et deleniti cum nostrum aliquam autem dolorum consequuntur soluta? Blanditiis laudantium dolore assumenda, architecto saepe porro molestias non, atque odio quasi incidunt nisi? Ea necessitatibus, repellendus porro et esse eos obcaecati harum dignissimos accusamus assumenda tempora est iure nihil animi qui libero maxime tempore perferendis incidunt. Provident iusto qui, quia voluptas dolorem commodi at dolores itaque repellat cum deleniti aut sed sapiente esse alias nam cupiditate quae ipsam dolore placeat? Qui itaque quia eos aliquid atque iure ipsa sed hic consectetur exercitationem deserunt, illum dicta vel maxime esse alias debitis odit repudiandae, sunt explicabo ratione praesentium asperiores nobis magni? Magni, ut possimus consectetur, similique unde officiis ex eos non tenetur quisquam repellendus fugiat eveniet hic velit sunt cum labore vitae quos at beatae quae libero? Ex facere enim eius voluptatem fugiat nulla maiores consectetur. Inventore ut totam exercitationem aperiam optio illo, voluptatum id vel?</p>
+
     <h2 id="section-css">CSS</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea corrupti aut molestiae perspiciatis temporibus. Error provident tempora soluta sunt non dignissimos architecto, totam optio vero corrupti necessitatibus expedita nesciunt esse excepturi culpa distinctio quod nisi qui odit quisquam illo sequi aut nulla praesentium. Rerum inventore neque excepturi iusto, doloremque reprehenderit et nesciunt est dolorum perspiciatis culpa, alias, ad repudiandae fuga minima voluptatum eveniet illum? Voluptates deleniti magni iure repellat earum aliquam voluptatibus. Sunt soluta optio labore omnis asperiores quod deserunt exercitationem libero quam in, aut quisquam iusto quae ab vel voluptates. Atque eaque amet quas, voluptate id nostrum esse! Eveniet placeat nam rerum provident! Architecto molestias, libero sunt ad totam harum suscipit recusandae ipsum quos dolores error maxime repellat eum, ipsam numquam ducimus iusto autem inventore a? Tempora, cupiditate placeat soluta veritatis temporibus veniam quis? Eveniet, doloribus accusantium architecto officiis molestiae facilis ratione perspiciatis eius obcaecati? Quibusdam accusantium laboriosam deserunt magni illum! Non dolore ducimus blanditiis hic accusamus magni animi nihil sequi sit facere voluptatum, aliquid totam magnam est, vero architecto consequatur at officiis? Optio, eos ab nihil temporibus nam esse, doloribus consequuntur voluptatum delectus beatae unde vitae ipsa modi possimus eligendi perspiciatis neque, aliquam ducimus! Dolore nesciunt sit maiores?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+
     <a href="#">Jump to top</a>
     <br>
+
     <img src="images/images.jpeg" alt="Hello World">
+
     <p class="username">hello</p>
-    <p>i love to learn &lt;HTML&gt;!&copy;</p>
-    <p>i love to learn HTML!</p>
-    <p>i love to learn <em>HTML!</em></p>
-    <p>i love to learn <strong>HTML!</strong></p>
-    <!-- These elements are considerd deplicated because styling should be done in css not in html.
-    <p>i love to learn <i>HTML!</i></p>
-    <p>i love to learn <b>HTML!</b></p> -->
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni inventore nobis dolorem a velit reiciendis id exercitationem! Dicta odit eos ratione dignissimos, iure id. Saepe repellendus quae neque provident voluptatibus dignissimos&nbsp;laborum reprehenderit ipsa ullam! Quibusdam sit fugiat facere praesentium nihil! Porro velit at modi odit nam laboriosam necessitatibus optio?</p>
+    <p>I love to learn &lt;HTML&gt;!&copy;</p>
+    <p>I love to learn HTML!</p>
+    <p>I love to learn <em>HTML!</em></p>
+    <p>I love to learn <strong>HTML!</strong></p>
+    <!-- Deprecated: Avoid using inline styles -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+
+    <div class="product">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <a href="#">Link</a>
+    </div>
+    <div class="product">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <a href="#">Link</a>
+    </div>
+
+    <p>
+        <span class="highlight">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Laborum, sit quasi! 
+        Perferendis velit eveniet amet facere pariatur dicta, molestiae delectus libero tempora corporis cupiditate 
+        quaerat magnam, possimus quis consequatur, dolor ducimus dolorum architecto animi.
+    </p>
+    <p>
+        <div class="highlight">Lorem</div> ipsum dolor sit amet consectetur adipisicing elit. Laborum, sit quasi! 
+        Perferendis velit eveniet amet facere pariatur dicta, molestiae delectus libero tempora corporis cupiditate 
+        quaerat magnam, possimus quis consequatur, dolor ducimus dolorum architecto animi.
+    </p>
+    <p>
+        <mark class="highlight">Lorem</mark> ipsum dolor sit amet consectetur adipisicing elit. Laborum, sit quasi! 
+        Perferendis velit eveniet amet facere pariatur dicta, molestiae delectus libero tempora corporis cupiditate 
+        quaerat magnam, possimus quis consequatur, dolor ducimus dolorum architecto animi.
+    </p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Products</h2>
+            <article></article>
+            <article></article>
+            <article></article>
+        </section>
+        <section>
+            <h2>Testimonial</h2>
+            <article>
+                <div></div>
+                <div></div>
+                <div></div>
+            </article>
+            <article></article>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul></ul>
+        </nav>
+    </footer>
+
+    <article class="article">
+        <h1>Heading</h1>
+        <p>Published <time datetime="2025-01-12T17:00">January 12, 2025 at 05:00pm</time></p>
+        <p>Lorem ipsum dolor sit amet...</p>
+        <figure>
+            <img src="" alt="">
+            <figcaption>My coffee this morning</figcaption>
+        </figure>
+    </article>
 </body>
+
 </html>
